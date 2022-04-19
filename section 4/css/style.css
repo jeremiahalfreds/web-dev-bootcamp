@@ -1,0 +1,104 @@
+    @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Montserrat:wght@875&family=Ubuntu&display=swap');
+
+
+    body {
+        background-color: #eaf6f6;
+        font-family: 'Poppins', sans-serif;
+        box-sizing: border-box;
+        margin: 0 10% 0 10%;
+    }
+
+    hr {
+        border-style: none;
+        border-top-style: dotted;
+        border-color: grey;
+        border-width: 5px;
+        width: 3%;
+    }
+
+    h1,
+    h3 {
+        color: #66bfbf;
+    }
+
+    .navbar {
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        max-width: 800px;
+        margin: 0 auto;
+        border-bottom: 1px solid #f2f2f2;
+    }
+
+    .navbar h1 {
+        color: #66bfbf;
+        font-family: "ubuntu";
+        font-size: 1.5rem;
+    }
+
+    .navbar .links {
+        margin-left: auto;
+    }
+
+    .navbar a {
+        margin-left: 16px;
+        text-decoration: none;
+        padding: 6px;
+        color: black
+    }
+
+    .navbar a:hover {
+        background-color: #66bfbf;
+        color: white;
+        border-radius: 10px;
+        padding: 10px;
+        transition: all 0.3s ease-in-out;
+    }
+    .content {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+
+    .content input, textarea {
+        padding: 10px 10px;
+        margin-bottom: 20px;
+        width: 80%;
+    }
+    .content input[type="text"], .content textarea {
+        margin-top: 10px;
+    }
+    .content input[type="text"]:focus, .content textarea:focus {
+        outline-color: lightblue;
+        outline-width: 5px;
+    }
+    button {
+        padding: 10px;
+        margin: 0% 10% 0% 10%;
+        width: 60%;
+        background-color: #66bfbf;
+        border: none;
+        border-radius: 10px;
+        color: #fff;
+        font-size: 1rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* media query section */
+    @media (max-width: 700px) {
+        body {
+            box-sizing: border-box;
+            margin: 5% 3% 0 3%;
+        }
+
+        .name {
+            font-size: 20px;
+        }
+
+        p {
+            display: inline-block;
+            flex: wrap;
+        }
+    }
